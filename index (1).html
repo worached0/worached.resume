@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resume of Worached Siriboontanawat, university student and lifelong learner." />
+  <title>Worached Siriboontanawat | Resume</title>
+  <style>
+    :root { --navy:#102d50; --blue:#1e4e7b; --pale:#edf3f9; --ink:#203248; --muted:#607286; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:#f3f6fa; line-height:1.65; }
+    .page { max-width:1000px; margin:34px auto; background:var(--white); box-shadow:0 18px 50px rgba(16,45,80,.12); overflow:hidden; border-radius:18px; }
+    .hero { display:grid; grid-template-columns: 1.5fr .8fr; align-items:center; gap:28px; padding:42px 48px; color:white; background:linear-gradient(125deg,#102d50,#1d4d79); }
+    .eyebrow { text-transform:uppercase; letter-spacing:.18em; font-size:.78rem; color:#c4d9ef; font-weight:700; }
+    h1 { margin:8px 0 10px; font-size:clamp(2rem,5vw,3.4rem); line-height:1.04; letter-spacing:-.04em; }
+    .tagline { margin:0 0 22px; color:#d9e7f5; font-size:1.02rem; }
+    .address { margin:0; color:#f0f5fb; font-size:.94rem; }
+    .portrait-wrap { justify-self:end; width:220px; height:250px; padding:7px; border:2px solid rgba(255,255,255,.7); border-radius:110px 110px 24px 24px; background:rgba(255,255,255,.12); }
+    .portrait { display:block; width:100%; height:100%; object-fit:cover; object-position:center 28%; border-radius:105px 105px 18px 18px; }
+    .content { display:grid; grid-template-columns:1.25fr .75fr; gap:0; }
+    main { padding:38px 42px 44px 48px; }
+    aside { padding:38px 34px; background:var(--pale); }
+    section { margin:0 0 30px; }
+    h2 { display:flex; align-items:center; gap:12px; margin:0 0 15px; color:var(--navy); font-size:1.12rem; text-transform:uppercase; letter-spacing:.055em; }
+    h2:after { content:""; height:2px; flex:1; background:#c5d6e7; }
+    .mark { display:inline-grid; place-items:center; width:34px; height:34px; border-radius:50%; color:white; background:var(--blue); font-size:1rem; flex:0 0 34px; }
+    p { margin:0 0 10px; }
+    .role { font-weight:700; color:var(--blue); }
+    .subtext { color:var(--muted); font-size:.94rem; }
+    .school { margin-bottom:18px; }
+    .school:last-child { margin-bottom:0; }
+    .school h3 { margin:0 0 3px; font-size:1rem; color:var(--navy); }
+    ul { margin:0; padding-left:20px; }
+    li { margin:0 0 9px; }
+    .interest-list { list-style:none; padding:0; }
+    .interest-list li { position:relative; padding-left:24px; margin-bottom:14px; }
+    .interest-list li:before { content:"•"; position:absolute; left:3px; top:-1px; color:var(--blue); font-size:1.5rem; font-weight:bold; }
+    .note { padding:15px 16px; background:white; border-left:4px solid #739bc1; border-radius:8px; font-size:.92rem; }
+    footer { padding:20px 30px; text-align:center; color:#dce8f4; background:var(--navy); font-weight:700; letter-spacing:.08em; }
+    @media (max-width:720px) {
+      .page { margin:0; border-radius:0; }
+      .hero { grid-template-columns:1fr; padding:32px 25px; gap:22px; }
+      .portrait-wrap { justify-self:start; grid-row:1; width:150px; height:170px; }
+      .content { grid-template-columns:1fr; }
+      main, aside { padding:30px 25px; }
+    }
+    @media print { body { background:white; } .page { margin:0; box-shadow:none; border-radius:0; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Student · Problem Solver · Lifelong Learner</div>
+        <h1>Worached<br />Siriboontanawat</h1>
+        <p class="tagline">Building experience. Thinking differently. Becoming independent.</p>
+        <p class="address">📍 247/192 Pruksa Village 15, Phase 2, 2 Phraeksa Road,<br />Phraeksa Mai, Mueang Samut Prakan, Samut Prakan 10280, Thailand</p>
+      </div>
+      <div class="portrait-wrap"><img class="portrait" src="profile.jpg" alt="Portrait of Worached Siriboontanawat" /></div>
+    </header>
+
+    <div class="content">
+      <main>
+        <section>
+          <h2><span class="mark">◎</span> Profile Statement</h2>
+          <p>A motivated and open-minded university student who is eager to gain practical work experience and develop new skills. I enjoy exploring new places, playing games, and learning through real-life experiences. I believe in thinking outside the box, adapting to different situations, and becoming self-reliant. My goal is to gain valuable experience before graduation, build professional skills, and prepare myself for future challenges.</p>
+        </section>
+
+        <section>
+          <h2><span class="mark">▣</span> Work Experience</h2>
+          <p class="role">Seeking opportunities to gain experience</p>
+          <p>I am eager to develop practical workplace skills and learn from real-world challenges. I welcome opportunities to take responsibility, work with others, and contribute while continuing to learn.</p>
+        </section>
+
+        <section>
+          <h2><span class="mark">◇</span> Education</h2>
+          <div class="school">
+            <h3>University of the Thai Chamber of Commerce</h3>
+            <p>Currently pursuing university studies.</p>
+            <p class="subtext">Field of study and expected graduation: to be added</p>
+          </div>
+          <div class="school">
+            <h3>Assumption College Samut Prakan</h3>
+            <p>Attended from primary school through high school.</p>
+          </div>
+        </section>
+      </main>
+
+      <aside>
+        <section>
+          <h2><span class="mark">✦</span> Interests & Hobbies</h2>
+          <ul class="interest-list">
+            <li>Exploring new places and discovering new experiences.</li>
+            <li>Playing video games for enjoyment and to practise problem-solving.</li>
+            <li>Looking for work opportunities to gain practical experience and learn new skills.</li>
+            <li>Thinking outside the box and finding creative solutions to challenges.</li>
+            <li>Developing independence, adaptability, and confidence in unfamiliar situations.</li>
+          </ul>
+        </section>
+        <section>
+          <h2><span class="mark">＋</span> Career Goal</h2>
+          <div class="note">To gain meaningful experience before graduation, grow through new challenges, and build the skills needed to stand on my own feet.</div>
+        </section>
+        <section>
+          <h2><span class="mark">✉</span> Contact</h2>
+          <p class="subtext">Email and phone number can be added here.</p>
+        </section>
+      </aside>
+    </div>
+    <footer>MORE EXPERIENCE, BETTER ME</footer>
+  </div>
+</body>
+</html>
